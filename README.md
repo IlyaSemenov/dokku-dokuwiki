@@ -11,5 +11,4 @@ dokku storage:mount /srv/dokuwiki:/var/dokuwiki
 git push dokku master
 ```
 
-Your new DokuWiki instance is now running at <http://dokuwiki.dokku.me>.
-
+Your new DokuWiki instance is now running at <http://dokuwiki.dokku.me>. Login as user `admin`, password `admin`.

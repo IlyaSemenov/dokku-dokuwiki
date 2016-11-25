@@ -13,4 +13,11 @@ if [ -e /var/dokuwiki ]; then
 	ln -s /var/dokuwiki/* /var/dokuwiki-storage/
 fi
 
-exec ./start.sh "$@"
+for f in $(ls -A /app/conf); do
+	if [ ! -e /var/www/conf/$f ]; then
+		cp /app/conf/$f /var/www/conf/$f
+		chown nobody !$
+	fi
+done
+
+exec /start.sh "$@"

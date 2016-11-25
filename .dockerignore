@@ -1,3 +1,5 @@
 *
+!conf
+
 !CHECKS
 !dokku-start.sh
