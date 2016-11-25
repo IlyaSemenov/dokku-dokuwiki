@@ -9,5 +9,5 @@
  */
 
 $conf['useacl'] = 1;
-$conf['superuser'] = 'admin';
+$conf['superuser'] = '@admin';
 $conf['userewrite'] = '1';
