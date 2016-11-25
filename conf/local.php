@@ -8,5 +8,6 @@
  * you automatically.
  */
 
-$conf['useacl']      = 1;
-$conf['superuser']   = 'admin';
+$conf['useacl'] = 1;
+$conf['superuser'] = 'admin';
+$conf['userewrite'] = '1';
